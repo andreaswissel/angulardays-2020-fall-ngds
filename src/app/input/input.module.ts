@@ -8,6 +8,7 @@ import { InputComponent } from './input.component';
   declarations: [InputComponent],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: [InputComponent]
 })
 export class InputModule { }
