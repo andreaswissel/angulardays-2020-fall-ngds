@@ -7,6 +7,6 @@ storiesOf('Components | Button', module)
   .add('Default', () => ({
     component: ButtonComponent,
     props: {
-      label: text('Label', 'Submit')
+      label: text('Label', 'A different label')
     }
   }));
